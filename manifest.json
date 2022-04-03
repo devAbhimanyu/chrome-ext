@@ -1,0 +1,21 @@
+{
+  "name": "Pomodoro App",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "A timer extension",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "24": "icon.png",
+      "32": "icon.png"
+    },
+    "default_title": "Pomodoro",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["storage"]
+}
